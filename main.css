@@ -1,16 +1,25 @@
 /* outline property */
-h1,
-p {
-  color: white;
+
+.links {
+  margin: 3rem;
 }
-h1 {
-  background: red;
-  padding: 10px;
-  border: 15px solid black;
-  border-radius: 19px;
+a {
+  background: #689f3f;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  margin: 0 20px;
 }
-p {
-  background: blue;
-  padding: 15px;
-  border: 7px dotted green;
+
+#one {
+  border: 0.2rem solid #222;
+  outline: 0.2rem dashed red;
+  outline-offset: -8px;
+}
+#two {
+  outline-width: 0.2rem;
+  outline-color: #222;
+  outline-style: dotted;
+  outline-offset: -10px;
 }
