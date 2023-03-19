@@ -1,1 +1,16 @@
-/*  */
+/* outline property */
+h1,
+p {
+  color: white;
+}
+h1 {
+  background: red;
+  padding: 10px;
+  border: 15px solid black;
+  border-radius: 19px;
+}
+p {
+  background: blue;
+  padding: 15px;
+  border: 7px dotted green;
+}
