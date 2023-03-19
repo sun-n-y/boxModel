@@ -7,7 +7,13 @@ p {
 h1 {
   background: red;
   padding: 10px;
+  border: 15px solid black;
+  border-radius: 19px;
 }
 p {
   background: blue;
+  padding: 15px;
+  border: 7px dotted green;
+  border-radius: 50%;
+  margin-top: -50px;
 }
